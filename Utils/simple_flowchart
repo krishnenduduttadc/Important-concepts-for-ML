@@ -1,0 +1,10 @@
+digraph {
+	A [label=Start]
+	B [label=Process]
+	C [label=Decision]
+	D [label=End]
+	A -> B
+	B -> C
+	C -> D [label=Yes]
+	C -> A [label=No]
+}

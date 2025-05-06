@@ -1,0 +1,11 @@
+// CNN Architecture
+digraph {
+	rankdir=LR
+	input [label="Input
+32×32×3" color=skyblue shape=box style=filled]
+	conv [label="Conv Layer
+16 filters
+3×3
+pad=1, stride=1" color=lightgreen shape=box style=filled]
+	input -> conv [label=Convolution]
+}
